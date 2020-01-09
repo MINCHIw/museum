@@ -1,6 +1,6 @@
 # 博物馆
 
-### **PRD 价值主张设计 15%**
+### **一、PRD 价值主张设计**
 
 #### **PRD1.加值宣言 3%**
 
@@ -10,6 +10,7 @@
 
 - 语音识别 API：辅助身障者（双手不便），通过语音识别对科技展品发出指令，进行对展品的操控。
 
+- 语音合成 API：辅助失语者，通过语音合成可以扫描展物的文字信息生成语音播放给失语者听，以听的方式来获取信息。
 
 #### **PRD2.核心价值 3%**
 
@@ -31,7 +32,48 @@
 |帮助失语者与展物互动|失语者想要与科技展品互动，但展品只能语音操控，而自己却无法说话。|很重要|
 |帮助双手不便者与展物互动|双手不便者想要与展品互动，但是展品仅能用手操作、触碰屏幕，而自己却无法做到。|很重要|
 
+### **二、原型**
+#### **（一）原型源文件**的下载地址:[https://gitee.com/NFUNM093/museum_prototype](https://gitee.com/NFUNM093/museum_prototype)
+
+
+#### **（二）**[Axure原型](http://nfunm093.gitee.io/museum_prototype)
+
+
+#### **（三）产品原型图**
+#### **1. 首页**
+- **首页界面**
+
+![首页](https://upload-images.jianshu.io/upload_images/9776460-132dd6a08e4efb02.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+---
+#### **2. 导览**
+- **导览界面**
+
+![导览](https://upload-images.jianshu.io/upload_images/9776460-bd8667cef91a4f62.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+---
+#### **3. 展物识别**
+- **识别界面**
+
+![展物识别](https://upload-images.jianshu.io/upload_images/9776460-819a19505f177648.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **识别结果界面**
+
+![识别结果](https://upload-images.jianshu.io/upload_images/9776460-2039111f60c6c08f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+---
+#### **4. 展物互动**
+- **扫描二维码界面**
+
+![扫描二维码](https://upload-images.jianshu.io/upload_images/9776460-11bbdff03cdfb6bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **手势互动界面**
+
+![手势互动](https://upload-images.jianshu.io/upload_images/9776460-2adc9b953aeffa02.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+---
+
 **用到的API有：**
-- 危险行为识别
+- 语音合成
 - 手势识别
 - 语音识别
+- 危险行为识别
